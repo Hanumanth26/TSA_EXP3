@@ -1,5 +1,5 @@
 # Ex.No: 03   COMPUTE THE AUTO FUNCTION(ACF)
-Date:
+### Date:30.08.24
 
 ### AIM:
 To Compute the AutoCorrelation Function (ACF) of the data for the first 35 lags to determine the model
@@ -23,8 +23,7 @@ import matplotlib.pyplot as plt
 
 data = [3, 16, 156, 47, 246, 176, 233, 140, 130, 101, 166, 201, 200, 116, 118, 247, 209, 52, 153, 232, 128, 27, 192, 168, 208, 187, 228, 86, 30, 151, 18, 254, 76, 112, 67, 244, 179, 150, 89, 49, 83, 147, 90, 33, 6, 158, 80, 35, 186, 127]
 
-# Mean
-data_mean = np.mean(data)
+# Meandata_mean = np.mean(data)
 
 # Variance
 data_var = np.var(data)
